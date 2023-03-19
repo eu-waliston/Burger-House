@@ -1,0 +1,71 @@
+.OurStory {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-app);
+}
+
+
+/*
+    SWIPER
+*/
+
+.swiper {
+    width: 1300px;
+    height: 100%;
+    position: relative;
+    top: 250px;
+    left: -20px;
+
+    border-radius: 10px;
+
+    box-shadow: 4px 4px 35px rgba(0, 0, 0, 0.151);
+}
+
+.swiper-slide {
+    text-align: left;
+    font-size: 20px;
+    background: var(--background-app);
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 800px;
+    height: 600px;
+    object-fit: cover;
+    margin-left: 47%;
+    border-radius: 10px;
+}
+
+.image-square {
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+.names {
+    text-align: left;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    width: 100% !important;
+
+    position: absolute;
+}
+
+.names p {
+       font-family: var(--font-text);
+       color:#21140c;
+       text-transform: capitalize;
+       font-size: 1.1rem;
+}
+
+.names h1 {
+    color:#21140c;
+    font-family: var(--font-highlight);
+    text-transform: capitalize;
+}

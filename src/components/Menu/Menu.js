@@ -50,6 +50,7 @@ const Menu = () => {
               className="burger-item"
               src={require("../images/Burger-Grid-1.png")}
             />
+            <div className="sahdow"></div>
             <h1 className="itens-2-p2-h1">lorem inpsun dolor</h1>
             <p className="itens-2-p2-p">
               Veniam consequat aliqua aute mollit cupidatat do ex exercitation
@@ -64,6 +65,7 @@ const Menu = () => {
               className="burger-item"
               src={require("../images/Burger-Grid-2.png")}
             />
+            <div className="sahdow s2"></div>
             <h1 className="itens-2-p2-h1">lorem inpsun dolor</h1>
             <p className="itens-2-p2-p">
               Veniam consequat aliqua aute mollit cupidatat do ex exercitation
@@ -78,6 +80,7 @@ const Menu = () => {
               className="burger-item"
               src={require("../images/Burger-Grid-3.png")}
             />
+            <div className="sahdow"></div>
             <h1 className="itens-2-p2-h1">lorem inpsun dolor</h1>
             <p className="itens-2-p2-p">
               Veniam consequat aliqua aute mollit cupidatat do ex exercitation
