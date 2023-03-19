@@ -79,7 +79,7 @@
 
 .btn-find {
     font-size: 1.2rem;
-    color:#fff;
+    color: #fff;
     border: 1px solid red;
     background-color: red;
     text-transform: uppercase;
@@ -95,4 +95,60 @@
 
 .btn-find:active {
     transform: translateY(5px);
+}
+
+/*
+    ======= MEDIA QUERY ======
+*/
+
+@media screen and (max-width: 1024px) {
+
+    .contact-top p {
+        font-size: 1.3rem;
+    }
+
+    .contact-top h1 {
+        font-size: 2rem;
+    }
+
+    .form-img {
+        width: 200px;
+    }
+
+    .iten-1 {
+        left: 10%;
+        top: -130px;
+    }
+
+
+    .iten-2 {
+        top: 210px;
+        margin-left: -330px;
+    }
+
+    .iten-3 {
+        position: relative;
+        width: 295px;
+        margin-right: -130px;
+        top: -170px;
+    }
+
+    .form {
+        grid-template-columns: repeat(2, 330px);
+        margin-left: 17%;
+        top: -150px;
+
+    }
+
+    .form input {
+        font-size: 1rem;
+    }
+
+    .form input::placeholder {
+        font-size: 1rem;
+    }
+
+    .btn-find {
+        font-size: 1rem;
+    }
 }

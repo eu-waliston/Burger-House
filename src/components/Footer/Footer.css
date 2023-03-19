@@ -49,3 +49,35 @@
 .find-us i {
     margin-right: 20px;
 }
+
+/*
+    ======= MEDIA QUERY ======
+*/
+
+@media screen and (max-width: 1024px) {
+    .logo__footer {
+        width: 200px;
+    }
+    .info {
+        font-size: .7rem;
+    }
+    .info-2 .bi{
+        font-size: 1rem;
+    }
+    .info-2 p{
+        font-size: .8rem;
+    }
+
+    .find-us {
+        font-size: 1.2rem;
+        position: relative;
+        bottom: 3px;
+    }
+
+    .find-us i {
+        margin-right: 30px;
+    }
+    .company {
+        font-size: .8rem;
+    }
+}

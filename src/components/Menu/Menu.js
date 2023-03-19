@@ -13,7 +13,7 @@ const Menu = () => {
             <div className="p-1">
               <p className="p-1-p">try it today</p>
               <h1 className="p-1-h1">most popular burger</h1>
-              <img src={require("../images/burger-square-1.png")} alt="burger" />
+              <img src={require("../images/burger-square-1.png")} alt="burger" className="itesn-1-img"/>
             </div>
         </div>
         <div className="grid-itens-2">
@@ -21,12 +21,12 @@ const Menu = () => {
               <p className="p-2-p">try it today</p>
               <h1 className="p-2-h1-1">most fun</h1>
               <h1 className="p-2-h1-2">most taste</h1>
-              <img src={require("../images/burger-square-2.png")} alt="burger" />
+              <img src={require("../images/burger-square-2.png")} alt="burger" className="itesn-1-img img-2 space"/>
             </div>
             <div className="p-3">
               <p className="p-3-p">try it today</p>
               <h1 className="p-3-h1">fresh & chili</h1>
-              <img src={require("../images/burger-square-3.png")} alt="burger" />
+              <img src={require("../images/burger-square-3.png")} alt="burger" className="itesn-1-img img-2"/>
             </div>
         </div>
       </div>

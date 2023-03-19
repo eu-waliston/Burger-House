@@ -14,7 +14,7 @@
     height: 100%;
     position: relative;
     top: 250px;
-    
+
 
     border-radius: 10px;
 
@@ -58,14 +58,57 @@
 }
 
 .names p {
-       font-family: var(--font-text);
-       color:#21140c;
-       text-transform: capitalize;
-       font-size: 1.1rem;
+    font-family: var(--font-text);
+    color: #21140c;
+    text-transform: capitalize;
+    font-size: 1.1rem;
 }
 
 .names h1 {
-    color:#21140c;
+    color: #21140c;
     font-family: var(--font-highlight);
     text-transform: capitalize;
+}
+
+/*
+    ======= MEDIA QUERY ======
+*/
+
+@media screen and (max-width: 1024px) {
+    .swiper {
+        width: 800px;
+        top: 150px;
+    }
+
+    .swiper-slide img {
+        width: 400px;
+        height: 400px;
+        margin-left: 50%;
+    }
+
+    .names {
+        text-align: left;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        width: 100% !important;
+
+        position: absolute;
+    }
+
+    .names p {
+        font-family: var(--font-text);
+        color: #21140c;
+        text-transform: capitalize;
+        font-size: .9rem;
+        width: 40%;
+    }
+
+    .names h1 {
+        color: #21140c;
+        font-family: var(--font-highlight);
+        text-transform: capitalize;
+        font-size: 1.5rem;
+    }
+
 }

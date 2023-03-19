@@ -39,18 +39,41 @@
     text-decoration: none;
     text-transform: uppercase;
     font-family: var(--font-text);
-    color:#21140c;
-
-
+    color: #21140c;
 }
 
 .iten:hover {
     transition: .5s;
-    color:#21140ccb;
+    color: #21140ccb;
 }
 
 .active {
     padding: 5px;
     border: 1px dashed #21140c;
-    color:#21140c;
+    color: #21140c;
+}
+
+
+/*
+    ==== MEDIA QUERY ======
+*/
+
+@media screen and (max-width: 1024px) {
+    .iten {
+        font-size: 1.1rem;
+    }
+
+    .nav-top h2 {
+        font-size: 1rem;
+    }
+
+    .nav-itens {
+        right: 135px;
+    }
+
+    .home-logo {
+        width: 200px;
+        position: relative;
+        top: 10px;
+    }
 }

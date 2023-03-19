@@ -32,7 +32,7 @@ const Footer = () => {
 
       <div className="footer__itens_pt2">
         <div>
-            <p>
+            <p className="company">
               <i class="bi bi-c-circle"></i> COMPANY NAME 2023 - ALL RIGHTS
               RESERVED.
             </p>

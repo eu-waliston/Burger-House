@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 
 :root {
-    --font-highlight: 'Holtwood One SC', serif;
-    --font-text: 'Poppins', sans-serif;
-    --background-app: #f5f5f5;
+  --font-highlight: 'Holtwood One SC', serif;
+  --font-text: 'Poppins', sans-serif;
+  --background-app: #f5f5f5;
 }
 
 * {
@@ -32,3 +32,4 @@
   background-color: rgb(235, 49, 49);
   border-radius: 10px;
 }
+

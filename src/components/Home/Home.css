@@ -93,3 +93,59 @@ SIDE B
 .price span {
     font-size: 2.8rem
 }
+
+/*
+=======    MEDIA QUERY ======
+*/
+
+@media screen and (max-width: 1024px) {
+
+    .home {
+        overflow: hidden;
+    }
+
+    /*
+        SIDE A
+    */
+
+    .top_title_peq, .top_title_gran, .top_sub_title {
+        left: 26%
+    }
+    .title_peq {
+        font-size: .7rem;
+    }
+    .top_title_gran {
+        font-size: 5rem;
+    }
+    .top_sub_title {
+        font-size: 2.5rem;
+        top: 190px;
+    }
+
+    /*
+        SIDE B
+    */
+    .burger-mage {
+        width: 630px;
+        right: 50px;
+    }
+
+    .price {
+        position: relative;
+        top: -198px;
+        margin-left: -5px;
+        font-size: 1.1rem;
+    }
+
+    .price span {
+        font-size: 2rem
+    }
+
+    .home-price {
+        margin-left: 15%;
+    }
+    .icon-home {
+        width: 110px;
+    }
+
+}

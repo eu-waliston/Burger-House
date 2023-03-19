@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="nav-top">
-        <img src={require("../images/Logo.png")} alt="logo" />
+        <img src={require("../images/Logo.png")} alt="logo"  className="home-logo"/>
         <h2>
           <i class="fa-solid fa-motorcycle"></i> express delivery +1 234 567 890
         </h2>
