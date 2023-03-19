@@ -39,14 +39,18 @@
     text-decoration: none;
     text-transform: uppercase;
     font-family: var(--font-text);
-    color: #000;
+    color:#21140c;
 
 
 }
 
 .iten:hover {
     transition: .5s;
+    color:#21140ccb;
+}
+
+.active {
     padding: 5px;
-    border: 1px dashed rgb(0, 0, 0);
-    color: rgba(0, 0, 0, 0.699);
+    border: 1px dashed #21140c;
+    color:#21140c;
 }

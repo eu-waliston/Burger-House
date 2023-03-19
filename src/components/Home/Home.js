@@ -14,7 +14,7 @@ const Home = () => {
                 <p className="title_peq">it is good time for the great taste of burgers</p>
             </div>
             <h1 className="top_title_gran">burger</h1>
-            <h2 className="top_sub_title">week</h2>
+            <h2 className="top_sub_title">house</h2>
           </div>
           <div className="right-side">
             <img className="burger-mage" alt="burger" src={require("../images/home-image.png")}/>

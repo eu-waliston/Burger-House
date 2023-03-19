@@ -1,0 +1,166 @@
+.menu {
+    width: 100%;
+    height: 170vh;
+
+    background-color: var(--background-app);
+}
+
+
+/*
+    itens top
+*/
+.itens-1 {
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.grid-itens-1,
+.grid-itens-2 {
+    position: relative;
+    top: 30%;
+}
+.grid-itens-1 {
+    margin-left: 7%;
+}
+
+.grid-itens-2 {
+    margin-right: 7%;
+    margin-left: -130px;
+}
+
+.p-1-p,
+.p-1-h1 {
+    position: absolute;
+    top: 2%;
+    color: #fff;
+    left: 2%;
+    font-family: var(--font-text);
+    text-transform: uppercase;
+}
+
+.p-1-h1, .p-2-h1-1  {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.p-2-h1-2 {
+    margin-top: 50px;
+}
+.p-2-p,
+.p-2-h1-1,
+.p-2-h1-2 {
+    position: absolute;
+    top: 2%;
+    color: #fff;
+    left: 2%;
+    font-family: var(--font-text);
+    text-transform: uppercase;
+
+}
+
+.p-3-p, .p-3-h1 {
+    position: absolute;
+    top: 32%;
+    color: #fff;
+    left: 2%;
+    font-family: var(--font-text);
+    text-transform: uppercase;
+}
+.p-3-h1 {
+    margin-top: 20px;
+    font-size: 1.9rem;
+}
+
+.p-3 {
+    margin-top: 5%;
+}
+
+
+/*
+    itens bottom
+*/
+
+
+
+.itens-2-p1 {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    width: 50%;
+    margin: 0 auto;
+
+    color:#21140c;
+}
+
+.itens-2-p1-h1{
+    font-family: var(--font-highlight);
+    font-size: 4rem;
+}
+
+.itens-2-p1-h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--font-text);
+    padding: 10px;
+    background-color: orange;
+    position: relative;
+    width: 30%;
+    left: 35%;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.itens-2-p2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: 170px;
+}
+
+.itens-2-p2-h1 {
+    color: #21140c;
+    font-family: var(--font-highlight);
+    font-size: 1.5rem;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+.itens-2-div-1 {
+    position: relative;
+    margin-left: 100px;
+}
+
+.itens-2-div-2 {
+    position: relative;
+    margin-right: -50px;
+    margin-left: -50px;
+}
+
+.itens-2-div-3 {
+    position: relative;
+    margin-right: 100px;
+}
+
+.itens-2-p2-p {
+    margin-top: 20px;
+}
+
+.itens-2-p2-btn {
+    margin-top: 30px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-family: var(--font-highlight);
+    color: #fff;
+    background-color: red;
+    border: 1px solid #fff;
+}
