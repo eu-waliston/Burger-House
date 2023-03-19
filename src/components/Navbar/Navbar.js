@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
         <li className="nav-iten
         ">
-          <NavLink to={"/contact-us"} className="iten" style={navLinkStyle}>
+          <NavLink to={"/contact"} className="iten" style={navLinkStyle}>
             contact us
           </NavLink>
         </li>
