@@ -1,0 +1,52 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 2%;
+}
+
+.nav-top h2 {
+    position: relative;
+    top: 25px;
+    text-transform: capitalize;
+    font-family: var(--font-text);
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.nav-itens {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 333px;
+    gap: 50px
+}
+
+.nav-iten {
+    font-size: 1.3rem;
+    list-style: none;
+    position: relative;
+    top: 15px;
+}
+
+.iten {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-text);
+    color: #000;
+
+
+}
+
+.iten:hover {
+    transition: .5s;
+    padding: 5px;
+    border: 1px dashed rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.699);
+}
